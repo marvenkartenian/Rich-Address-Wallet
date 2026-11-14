@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   update:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     steps:
       - name: install package
